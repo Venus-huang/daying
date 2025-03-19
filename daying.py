@@ -43,7 +43,7 @@ class Handler(FileSystemEventHandler):
 
 if __name__ == '__main__':
     # 替换为你的微信接收文件的文件夹路径
-    path_to_watch = r"C:\Users\Hcz_090505\Documents\WeChat Files\wxid_zhtbhn81hnh522\FileStorage\File"
+    path_to_watch = r"C:\Users\Venus\Documents\WeChat Files\wxid_zhtbhn81hnh522\FileStorage\File"
     # 替换为你需要监控的文件扩展名列表
     extensions = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx','.jpg','.png']  # 例如监控 PDF 和 TXT 文件
     w = Watcher(path_to_watch, extensions)
